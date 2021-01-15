@@ -1,0 +1,7 @@
+name: M_Buff
+main: com.buff.Buff
+author: MisterSevent
+version: 1.0
+description: Plugin simples de /buff
+commands:
+  buff:

@@ -1,0 +1,92 @@
+console-execute: "&cApenas jogadores podem executar este comando!"
+no-permission: "&cVocê não tem permissão para isso"
+account-absent: "&cSua conta não foi encontrada em nosso banco!"
+not-enough-money: "&cVocê não tem money suficiente"
+sucess-reload: "&aArquivos recarregados com sucesso!"
+permission-admin: "buff.admin"
+
+#Crie quanto efeitos você quiser a partir do buffs e personalize
+#do jeito que você entender.
+Inventory:
+  name: "&7Central de Buff"
+  size: 3
+  buffs:
+    Membro:
+      Material: STAINED_GLASS_PANE
+      Data-value: 0
+      Slot: 10
+      permission: "buff.membro"
+      Price: 50000
+      Name: "&7Buff Membro"
+      Lore:
+        - ""
+        - "&7Efeitos Disponiveis:"
+        - ""
+        - "&a- Speed II - 2 Minutos"
+        - "&a- Força I - 1 Minutos"
+        - "&fPreço: &2R$&a50K"
+        - ""
+        - "&eClique com botão direito para comprar"
+      sucess: "&aBuff &7Membro &acomprado com sucesso!"
+      #Crie quantos efeitos você quiser
+      Effects:
+        1:
+          Efeito: INCREASE_DAMAGE
+          Duracao: 60
+          Nivel: 1
+        2:
+          Efeito: SPEED
+          Duracao: 120
+          Nivel: 2
+    Vip:
+      Material: STAINED_GLASS_PANE
+      Data-value: 5
+      Slot: 16
+      permission: "buff.vip"
+      Price: 200000
+      Name: "&bBuff Vip"
+      Lore:
+        - ""
+        - "&7Efeitos Disponiveis:"
+        - ""
+        - "&a- Speed III - 3 Minutos"
+        - "&a- Força II - 2 Minutos"
+        - "&fPreço: &2R$&a200K"
+        - ""
+        - "&eClique com botão direito para comprar"
+      sucess: "&aBuff &bVip &acomprado com sucesso!"
+      Effects:
+        1:
+          Efeito: INCREASE_DAMAGE
+          Duracao: 120
+          Nivel: 2
+        2:
+          Efeito: SPEED
+          Duracao: 180
+          Nivel: 3
+
+
+#Effects Disponibles
+# Wither
+# Speed
+# DAMAGE_RESISTANCE
+# ABSORPTION
+# BLINDNESS
+# CONFUSION
+# FAST_DIGGING
+# FIRE_RESISTANCE
+# SLOW
+# SLOW_DIGGING
+# WATER_BREATHING
+# SATURATION
+# REGENERATION
+# POISON
+# NIGHT_VISION
+# JUMP
+# INVISIBILITY
+# INCREASE_DAMAGE (SHARPNESS)
+# HUNGER
+# HEALTH_BOOST
+# HEAL
+# HARM
+
